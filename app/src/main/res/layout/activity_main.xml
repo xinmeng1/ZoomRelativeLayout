@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.idigisign.com.zoomrelativelayout.ZoomView
+    android:id="@+id/zoomView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@+id/rlBottomTitle"
+    android:layout_below="@+id/rlPieTitle"
+    android:layout_centerInParent="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout
+    android:id="@+id/zoomView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/pdf_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/pdf_image"/>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:src="@drawable/tab_design_note"
+        android:id="@+id/imageView"
+        android:layout_marginTop="115dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="66dp"
+        android:layout_marginStart="66dp" />
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:src="@drawable/tab_design_email"
+        android:layout_below="@+id/imageView2"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="117dp"
+        android:id="@+id/imageView3" />
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:src="@drawable/tab_design_dropdown"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="88dp"
+        android:id="@+id/imageView2"
+        android:layout_alignLeft="@+id/imageView3"
+        android:layout_alignStart="@+id/imageView3" />
+</RelativeLayout>
+</android.idigisign.com.zoomrelativelayout.ZoomView>
